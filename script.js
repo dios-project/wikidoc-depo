@@ -10,7 +10,7 @@ function copyToClipboard(text) {
         textarea.style.position = "fixed";  // Prevent scrolling to bottom of page in Microsoft Edge.
         document.body.appendChild(textarea);
         textarea.select();
-        try {{
+        try {
             return document.execCommand("copy");  // Security exception may be thrown by some browsers.
         }
         catch (ex) {
