@@ -1,0 +1,20 @@
+<book>
+ <title>OnliBook kitap yükleme</title>
+  <author>K.Ata</author>
+<content>
+  Merhaba bügün nasıl Onlibook'a kitap yükleyebileceğinizi anlatacağım.
+  Onlibook'a kitap koymak için ilk olarak zoda@vuhuv.com emailden bizimle iletişime geçmeniz gerekmektedir.
+  Verilen e-posta adresine kitabınızın dosyasını atın ve onaylanmasını bekleyin.
+  Eğer kitabınız onaylanırsa kitabınız onlibook'da yayımlanacaktır.
+  
+  Nasıl bir kitap Yazabilirim?
+  onlibook kitaları yorumlamak ve anlamak için xml kullanır
+  
+  tagler (etiketler)
+  
+  book: ana etiket bütün diğer elementler altına yazılır
+  title: Sayfanın başlığını ayarlar
+  author: kitap yazarının adı içindir
+  content: kitap içerği buraya yazılır
+</content>
+</book>
